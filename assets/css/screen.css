@@ -41,7 +41,7 @@ nav {
 }
 
 nav a {
-  flex: 1 1 200px;
+  flex: 1 200px;
   background-color: rgb(0, 102, 204);
   color: black;
   border-radius: 2em;
@@ -58,11 +58,25 @@ h1 {
 
 h2 {
   font-weight: bold;
+  font-size: 25px;
+  flex: 1 200px;
+  background:	#F08080;
+  border-radius: 2em;
+  margin: 1em;
+  max-width: 5em;
+  padding-right: 1em;
+  padding-left: 1em;
 }
 
 h3 {
   font-weight: bold;
-  padding-top: 24px;
+  font-size: 15px;
+  flex: 1 200px;
+  background-color: rgb(0, 102, 204);
+  margin: 1em;
+  max-width: 10em;
+  padding-right: 1em;
+  padding-left: 1em;
 }
 
 h4 {
