@@ -75,6 +75,7 @@ header {
   padding: 2em;
   line-height: 200%;
 }
+
 img {
   display: block;
   max-width: 100%;
@@ -82,5 +83,8 @@ img {
 }
 
 footer {
-  padding-top: 30px;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  font-weight: bold;
+  background:	#F08080
 }
