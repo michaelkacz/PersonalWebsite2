@@ -26,6 +26,12 @@ body {
   background-color: rgb(250, 250, 250);
 }
 
+@media screen and (min-width: 1px) {
+  html {
+    line-height: 2em;
+    font-size: 18px;
+  }
+
 nav {
   display: flex;
   flex-wrap: wrap;
