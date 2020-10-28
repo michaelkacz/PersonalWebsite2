@@ -11,12 +11,17 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 
 /* Begin site styles below */
 
-
 html {
   font-family: 'Poppins', 'Hoefler Text', Georgia, 'Times New Roman', Times, Roman, serif;
   font-size: 18px;
-  line-height: 30px;
+  line-height: 3em;
   padding: 15px;
   background:	#F08080;
   /*color: light coral;*/
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  border: 5px solid #hsla(360, 100%, 100%, 0.5);
 }
