@@ -90,6 +90,11 @@ header {
   line-height: 200%;
 }
 
+ul.acheivements, ul.work-skills, ul.valley-tool, ul.es, ul.phs, ul.iit{
+  list-style-type: disc;
+  padding-left: 12px;
+}
+
 img {
   display: block;
   max-width: 100%;
