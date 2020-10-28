@@ -12,16 +12,10 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 /* Begin site styles below */
 
 html {
-  font-family: 'Trebuchet MS', Helvetica, sans-serif, 'Times New Roman', Times, Roman, serif;
+  font-family: 'Trebuchet MS', Helvetica, serif, 'Times New Roman', Times, Roman, serif;
   font-size: 18px;
   line-height: 30px;
   padding: 15px;
   background:	#F08080;
   /*color: light coral;*/
-}
-
-img {
-  display: block;
-  max-width: 100%;
-  border: 5px solid #hsla(360, 100%, 100%, 0.5);
 }
