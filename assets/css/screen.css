@@ -20,8 +20,18 @@ html {
   /*color: light coral;*/
 }
 
+body {
+  margin: 1em;
+  padding: 1em;
+}
+
+
 img {
   display: block;
   max-width: 100%;
   border: 5px solid #hsla(360, 100%, 100%, 0.5);
+}
+
+footer {
+  padding-top: 30px;
 }
