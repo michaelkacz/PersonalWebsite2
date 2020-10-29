@@ -36,6 +36,9 @@ nav {
   display: flex;
   flex-wrap: wrap;
   list-style-type: none;
+  text-align: center;
+  margin: 0 auto;
+  display: table;
   background:	#F08080;
 
 }
