@@ -13,9 +13,9 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 
 html {
   font-family: 'Poppins', 'Hoefler Text', Georgia, 'Times New Roman', Times, Roman, serif;
-  font-size: 18px;
+  font-size: 1.125em;
   line-height: 2em;
-  padding: 15px;
+  padding: 0.9375em;
   background:	#F08080;
   /*color: light coral;*/
 }
@@ -29,7 +29,7 @@ body {
 @media screen and (min-width: 1px) {
   html {
     line-height: 2em;
-    font-size: 18px;
+    font-size: 1.125em;
 }
 
 nav {
@@ -44,7 +44,7 @@ nav {
 }
 
 nav a {
-  flex: 1 200px;
+  flex: 1 12.5em;
   background-color: rgb(0, 102, 204);
   color: black;
   border-radius: 2em;
@@ -73,7 +73,7 @@ h2 {
 
 h3 {
   font-weight: bold;
-  font-size: 15px;
+  font-size: 1.5625em;
   flex: 1 200px;
   background-color: rgb(0, 102, 204);
   margin: 1em;
@@ -84,7 +84,7 @@ h3 {
 
 h4 {
   font-weight: bold;
-  padding-top: 24px;
+  padding-top: 1.5em;
 }
 
 header {
@@ -96,13 +96,13 @@ header {
 
 ul.acheivements, ul.work-skills, ul.valley-tool, ul.es, ul.phs, ul.iit{
   list-style-type: disc;
-  padding-left: 12px;
+  padding-left: 0.75em;
 }
 
 img {
   display: block;
   max-width: 100%;
-  border: 5px solid #F08080;
+  border: 0.3125em solid #F08080;
 }
 
 .center {
@@ -115,7 +115,7 @@ img {
 figcaption {
   font-weight: bold;
   text-align: center;
-  font-size: 12px;
+  font-size: 0.75em;
 }
 
 footer {
