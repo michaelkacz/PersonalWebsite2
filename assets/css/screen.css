@@ -13,16 +13,16 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 
 html {
   font-family: 'Poppins', 'Hoefler Text', Georgia, 'Times New Roman', Times, Roman, serif;
-  font-size: 1.125em;
-  line-height: 2em;
-  padding: 0.9375em;
+  font-size: 1.125em; /* 18/16 = 1.125 */
+  line-height: 2em; /* 36/18 = 2 */
+  padding: 0.8888888888888888em; /* 16/18 = 0.8888888888888888 */
   background:	#F08080;
   /*color: light coral;*/
 }
 
 body {
-  margin: 1em;
-  padding: 1em;
+  margin: 1em; /* 18/18 = 1 */
+  padding: 1em; /* 18/18 = 1 */
   background-color: rgb(250, 250, 250);
 }
 
@@ -44,14 +44,14 @@ nav {
 }
 
 nav a {
-  flex: 1 12.5em;
+  flex: 1 12.5em; /* 225/18 = 12.5 */
   background-color: rgb(0, 102, 204);
   color: black;
-  border-radius: 2em;
-  margin: 1em;
-  max-width: 5em;
-  padding-right: 1em;
-  padding-left: 1em;
+  border-radius: 2em; /* 36/18 = 2 */
+  margin: 1em; /* 18/18 = 1 */
+  max-width: 5em;  /* 90/18 = 5 */
+  padding-right: 1em; /* 18/18 = 1 */
+  padding-left: 1em; /* 18/18 = 1 */
 }
 
 h1 {
@@ -61,48 +61,48 @@ h1 {
 
 h2 {
   font-weight: bold;
-  font-size: 25px;
-  flex: 1 12.5em;
+  font-size: 1.3888888888888888em; /* 25/18 = 1.3888888888888888 */
+  flex: 1 12.5em; /* 225/18 = 12.5 */
   background:	#F08080;
-  border-radius: 2em;
-  margin: 1em;
-  max-width: 5em;
-  padding-right: 1em;
-  padding-left: 1em;
+  border-radius: 2em; /* 36/18 = 2 */
+  margin: 1em; /* 18/18 = 1 */
+  max-width: 5em; /* 90/18 = 5 */
+  padding-right: 1em; /* 18/18 = 1 */
+  padding-left: 1em; /* 18/18 = 1 */
 }
 
 h3 {
   font-weight: bold;
-  font-size: 1.5625em;
-  flex: 1 12.5em;
+  font-size: 1.5555555555555556; /* 28/18 = 1.5555555555555556 */
+  flex: 1 12.5em; /* 225/18 = 12.5 */
   background-color: rgb(0, 102, 204);
-  margin: 1em;
-  max-width: 10em;
-  padding-right: 1em;
-  padding-left: 1em;
+  margin: 1em; /* 18/18 = 1 */
+  max-width: 10em; /* 180/18 = 10 */
+  padding-right: 1em; /* 18/18 = 1 */
+  padding-left: 1em; /* 18/18 = 1 */
 }
 
 h4 {
   font-weight: bold;
-  padding-top: 1.5em;
+  padding-top: 1.5em; /* 27/18 = 1.5 */
 }
 
 header {
   background:	#F08080;
-  padding: 2em;
+  padding: 2em; /* 36/18 = 2 */
   line-height: 200%;
   text-align: center;
 }
 
 ul.acheivements, ul.work-skills, ul.valley-tool, ul.es, ul.phs, ul.iit{
   list-style-type: disc;
-  padding-left: 0.75em;
+  padding-left: 0.75em; /* 13.5/18 = 0.75 */
 }
 
 img {
   display: block;
   max-width: 100%;
-  border: 0.3125em solid #F08080;
+  border: 0.3333333333333333em solid #F08080; /* 6/18 = 0.3333333333333333 */
 }
 
 .center {
@@ -115,12 +115,12 @@ img {
 figcaption {
   font-weight: bold;
   text-align: center;
-  font-size: 0.75em;
+  font-size: 0.75em; /* 13.5/18 = 0.75 */
 }
 
 footer {
-  padding-top: 1em;
-  padding-bottom: 1em;
+  padding-top: 1em; /* 18/18 = 1 */
+  padding-bottom: 1em; /* 18/18 = 1 */
   font-size: 50%;
   font-weight: bold;
   text-align: center;
