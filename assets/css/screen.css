@@ -13,7 +13,7 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 
 html {
   font-family: 'Poppins', 'Hoefler Text', Georgia, 'Times New Roman', Times, Roman, serif;
-  font-size: 1.125em; /* 18/16 = 1.125 */
+  font-size: 1.125em; /* 225/18 = 12.5 */
   line-height: 2em; /* 36/18 = 2 */
   padding: 0.8888888888888888em; /* 16/18 = 0.8888888888888888 */
   background:	#F08080;
