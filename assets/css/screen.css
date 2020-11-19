@@ -13,7 +13,7 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 
 html {
   font-family: 'Poppins', 'Hoefler Text', Georgia, 'Times New Roman', Times, Roman, serif;
-  font-size: 1.125em; /* 225/18 = 12.5 */
+  font-size: 1.125em; /* 20.25/18 = 12.5 */
   line-height: 2em; /* 36/18 = 2 */
   padding: 0.8888888888888888em; /* 16/18 = 0.8888888888888888 */
   background:	#F08080;
@@ -27,27 +27,32 @@ body {
 }
 
 /* media */
-@media screen and (min-width: 150px) {
+@media screen and (min-width: 8.333333333333334em) /* 150/18 = 8.333333333333334 */
+{
   html {
     font-size: 0.5em; /* 9/18 = 0.5 */
     }}
 
-@media screen and (min-width: 250px) {
+@media screen and (min-width: 13.88888888888889em)  /* 250/18 = 13.88888888888889 */
+{
   html {
     font-size: 0.75em; /* 13.5/18 = 0.75 */
     }}
 
-@media screen and (min-width: 500px) {
+@media screen and (min-width: 27.77777777777778em) /* 500/18 = 27.77777777777778 */
+{
   html {
     font-size: 1em; /* 18/18 = 1*/
     }}
 
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 44.44444444444444em) /* 800/18 = 44.44444444444444 */
+{
   html {
     font-size: 1.15em; /* 18.9/18 = 1.15 */
     }}
 
-@media screen and (min-width: 1100px) {
+@media screen and (min-width: 61.111111111111114em) /* 1100/18 = 61.111111111111114 */
+{
   html {
     font-size: 1.5em; /* 27/18 = 1.5 */
     }}
