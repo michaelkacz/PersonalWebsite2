@@ -94,7 +94,7 @@ ul.acheivements, ul.work-skills, ul.valley-tool, ul.es, ul.phs, ul.iit {
 
 img {
   display: block;
-  max-width: 100%;
+  max-width: 50%;
   border: 0.3333333333333333em solid #F08080; /* 6/18 = 0.3333333333333333 */
 }
 
@@ -146,6 +146,12 @@ footer {
 }
 
 @media screen and (min-width: 61.111111111111114em) { /* 1100/18 = 61.111111111111114 */
+  html {
+    font-size: 1.5em; /* 27/18 = 1.5 */
+  }
+}
+
+@media screen and (max-width: 976px) { /* 1100/18 = 61.111111111111114 */
   html {
     font-size: 1.5em; /* 27/18 = 1.5 */
   }
