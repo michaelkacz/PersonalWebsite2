@@ -16,7 +16,7 @@ html {
   font-size: 1.125em; /* 20.25/18 = 1.125 */
   line-height: 2em; /* 36/18 = 2 */
   padding: 0.8888888888888888em; /* 16/18 = 0.8888888888888888 */
-  background: #F08080;
+  background: #152238;
   /*color: light coral;*/
 }
 
@@ -32,13 +32,13 @@ nav {
   text-align: center;
   margin: 0 auto;
   display: table;
-  background: #F08080;
+  background: #23395d;
 
 }
 
 nav a {
   flex: 1 12.5em; /* 225/18 = 12.5 */
-  background-color: rgb(0, 102, 204);
+  background-color: #4682B4;
   color: black;
   border-radius: 2em; /* 36/18 = 2 */
   margin: 1em; /* 18/18 = 1 */
@@ -50,14 +50,17 @@ nav a {
 h1 {
   font-weight: bold;
   font-size: 200%;
+  color: #FFFFFF;
 }
 
 h2 {
   font-weight: bold;
-  font-size: 1.3888888888888888em; /* 25/18 = 1.3888888888888888 */
+  font-size: 1.75em;
   flex: 1 12.5em; /* 225/18 = 12.5 */
-  background: #F08080;
-  border-radius: 2em; /* 36/18 = 2 */
+  flex-wrap: wrap;
+  background: #23395d;
+  color: #FFFFFF;
+  border-radius: 3em; /* 36/18 = 2 */
   margin: 1em; /* 18/18 = 1 */
   max-width: 5em; /* 90/18 = 5 */
   padding-right: 1em; /* 18/18 = 1 */
@@ -65,29 +68,30 @@ h2 {
 }
 
 h3 {
-  font-weight: bold;
-  font-size: 1.5555555555555556em; /* 28/18 = 1.5555555555555556 */
+  font-size: 1em;
   flex: 1 12.5em; /* 225/18 = 12.5 */
-  background-color: rgb(0, 102, 204);
+  background: #4682B4;
+  color: #FFFFFF;
+  border-radius: 3em; /* 36/18 = 2 */
   margin: 1em; /* 18/18 = 1 */
-  max-width: 10em; /* 180/18 = 10 */
+  max-width: 5em; /* 90/18 = 5 */
   padding-right: 1em; /* 18/18 = 1 */
   padding-left: 1em; /* 18/18 = 1 */
 }
 
 h4 {
   font-weight: bold;
-  padding-top: 1.5em; /* 27/18 = 1.5 */
+  padding-top: 0.5em; /* 27/18 = 1.5 */
 }
 
 header {
-  background: #F08080;
+  background: #23395d;
   padding: 2em; /* 36/18 = 2 */
   line-height: 200%;
   text-align: center;
 }
 
-ul.acheivements, ul.work-skills, ul.valley-tool, ul.es, ul.phs, ul.iit {
+ul.acheivements, ul.work-skills, ul.valley-tool, ul.es, ul.phs, ul.iit, ul.ross {
   list-style-type: disc;
   padding-left: 0.75em; /* 13.5/18 = 0.75 */
 }
@@ -95,7 +99,7 @@ ul.acheivements, ul.work-skills, ul.valley-tool, ul.es, ul.phs, ul.iit {
 img {
   display: block;
   max-width: 50%;
-  border: 0.3333333333333333em solid #F08080; /* 6/18 = 0.3333333333333333 */
+  border: 0.3333333333333333em solid #23395d; /* 6/18 = 0.3333333333333333 */
 }
 
 .center {
@@ -117,7 +121,8 @@ footer {
   font-size: 50%;
   font-weight: bold;
   text-align: center;
-  background: #F08080;
+  background: #800000;
+  color: #FFFFFF;
 }
 
 /* media */
@@ -146,12 +151,6 @@ footer {
 }
 
 @media screen and (min-width: 61.111111111111114em) { /* 1100/18 = 61.111111111111114 */
-  html {
-    font-size: 1.5em; /* 27/18 = 1.5 */
-  }
-}
-
-@media screen and (max-width: 976px) { /* 1100/18 = 61.111111111111114 */
   html {
     font-size: 1.5em; /* 27/18 = 1.5 */
   }
